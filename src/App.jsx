@@ -29,7 +29,7 @@ const App = () => {
 				<tbody>
 					<tr>
 						<td colSpan="3">
-							<input value={inputValue} type="text" />
+							<input value={inputValue}  readOnly  autoComplete="off" type="text" />
 						</td>
 						<td>
 							<button onClick={clr}>C</button>
@@ -93,6 +93,9 @@ const App = () => {
 					</tr>
 				</tbody>
 			</table>
+			<footer>
+				&copy; 2023 shrey
+			</footer>
 		</>
 	);
 };
